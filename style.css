@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --branco-principal: #FFFFFF;
+    --azul-botao: #167BF7;
+    --cinza-primario: #F9F9F9;
+    --cinza-secundario: #C0C0C0;
+    --cor-de-fundo: #000000;   
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+} 
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.container__apresentacao {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container__conteudo {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 6rem;
+}
+
+.container__titulo--principal {
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container__botao--azul, .container__botao--branco {
+    width: 100%;
+    font-size: 1em;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
+
+.container__botao--azul {
+    border: none;
+    background-color: var(--azul-botao);
+}
+
+.container__botao--azul > a,
+.container__botao--branco > a {
+    color: var(--branco-principal);
+    padding: 1rem;
+}
+
+.container__botao--branco {
+    background-color: #ffffff00;
+    border: solid 2px var(--branco-principal);
+}
+
+.container__imagem--principal{
+    margin: 1em 0 2em;
+}
+
+.container__paragrafo--descricao {
+    font-size: 0.75rem;
+    color: var(--cinza-secundario);
+}
+
+.container__plataformas {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.plataformas__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.plataformas__conteudo > p {
+    width: 80%;
+    color: rgb(249, 249, 249, 60%);
+}
+
+.plataformas__conteudo > h2 {
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.plataformas__imagem {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container__telas {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.telas__imagem,
+.telas__conteudo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.telas__imagem {
+    margin: auto;
+}
+
+.telas__conteudo {
+    flex-direction: column;
+}
