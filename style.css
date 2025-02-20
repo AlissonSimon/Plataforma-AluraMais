@@ -185,3 +185,48 @@ body {
     width: 80%;
     color: rgb(249, 249, 249, 65%);
 }
+
+.container__dispositivos {
+    width: 100vw;
+    height: 60vh;
+}
+
+.dispositivos__titulo {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.dispositivos__imagens {
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container__footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+.footer__imagem--alura {
+    padding-bottom: 3rem;
+}
+
+.footer__nav--links { 
+    padding-bottom: 1.5rem;    
+}
+
+.footer__paragrafos {
+    width: 85vw;
+    text-align: center;
+}
+
+.footer__paragrafo--copyright {
+    padding-bottom: 1.5rem;   
+}
